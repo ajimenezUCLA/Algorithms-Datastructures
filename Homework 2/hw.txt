@@ -1,0 +1,379 @@
+Using Stacks: 
+current iteration: 1 (6,5)
+current iteration: 2 (6,6)
+current iteration: 3 (6,4)
+current iteration: 4 (7,4)
+current iteration: 5 (8,4)
+current iteration: 6 (8,3)
+current iteration: 7 (8,2)
+current iteration: 8 (8,1)
+current iteration: 9 (7,1)
+current iteration: 10 (6,3)
+current iteration: 11 (5,5)
+current iteration: 12 (4,5)
+current iteration: 13 (4,4)
+
+Using Queues:
+current iteration: 1 (6,5)
+current iteration: 2 (5,5)
+current iteration: 3 (6,4)
+current iteration: 4 (6,6)
+current iteration: 5 (4,5)
+current iteration: 6 (6,3)
+current iteration: 7 (7,4)
+current iteration: 8 (3,5)
+current iteration: 9 (4,4)
+current iteration: 10 (8,4)
+current iteration: 11 (2,5)
+current iteration: 12 (4,3)
+current iteration: 13 (8,3)
+
+
+
+// I went up to 13 just in case.
+
+////////////////////////////////////////////////////
+////			STACKS			////
+////////////////////////////////////////////////////
+
+Itertion # 1
+current coord is: (6 , 5)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X...X..X
+X.XXX.XXXX
+XXX..O.X.X
+X.XX.XXX.X
+X....X...X
+XXXXXXXXXX
+
+Itertion # 2
+current coord is: (6 , 6)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X...X..X
+X.XXX.XXXX
+XXX..OOX.X
+X.XX.XXX.X
+X....X...X
+XXXXXXXXXX
+
+Itertion # 3
+current coord is: (6 , 4)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X...X..X
+X.XXX.XXXX
+XXX.OOOX.X
+X.XX.XXX.X
+X....X...X
+XXXXXXXXXX
+
+Itertion # 4
+current coord is: (7 , 4)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X...X..X
+X.XXX.XXXX
+XXX.OOOX.X
+X.XXOXXX.X
+X....X...X
+XXXXXXXXXX
+
+Itertion # 5
+current coord is: (8 , 4)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X...X..X
+X.XXX.XXXX
+XXX.OOOX.X
+X.XXOXXX.X
+X...OX...X
+XXXXXXXXXX
+
+Itertion # 6
+current coord is: (8 , 3)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X...X..X
+X.XXX.XXXX
+XXX.OOOX.X
+X.XXOXXX.X
+X..OOX...X
+XXXXXXXXXX
+
+Itertion # 7
+current coord is: (8 , 2)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X...X..X
+X.XXX.XXXX
+XXX.OOOX.X
+X.XXOXXX.X
+X.OOOX...X
+XXXXXXXXXX
+
+Itertion # 8
+current coord is: (8 , 1)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X...X..X
+X.XXX.XXXX
+XXX.OOOX.X
+X.XXOXXX.X
+XOOOOX...X
+XXXXXXXXXX
+
+Itertion # 9
+current coord is: (7 , 1)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X...X..X
+X.XXX.XXXX
+XXX.OOOX.X
+XOXXOXXX.X
+XOOOOX...X
+XXXXXXXXXX
+
+Itertion # 10
+current coord is: (6 , 3)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X...X..X
+X.XXX.XXXX
+XXXOOOOX.X
+XOXXOXXX.X
+XOOOOX...X
+XXXXXXXXXX
+
+Itertion # 11
+current coord is: (5 , 5)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X...X..X
+X.XXXOXXXX
+XXXOOOOX.X
+XOXXOXXX.X
+XOOOOX...X
+XXXXXXXXXX
+
+Itertion # 12
+current coord is: (4 , 5)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X..OX..X
+X.XXXOXXXX
+XXXOOOOX.X
+XOXXOXXX.X
+XOOOOX...X
+XXXXXXXXXX
+
+Itertion # 13
+current coord is: (4 , 4)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X.OOX..X
+X.XXXOXXXX
+XXXOOOOX.X
+XOXXOXXX.X
+XOOOOX...X
+XXXXXXXXXX
+
+////////////////////////////////////////////////////
+////			QUEUES			////
+////////////////////////////////////////////////////
+
+Itertion # 1
+current coord is: (6 , 5)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X...X..X
+X.XXX.XXXX
+XXX..O.X.X
+X.XX.XXX.X
+X....X...X
+XXXXXXXXXX
+
+Itertion # 2
+current coord is: (5 , 5)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X...X..X
+X.XXXOXXXX
+XXX..O.X.X
+X.XX.XXX.X
+X....X...X
+XXXXXXXXXX
+
+Itertion # 3
+current coord is: (6 , 4)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X...X..X
+X.XXXOXXXX
+XXX.OO.X.X
+X.XX.XXX.X
+X....X...X
+XXXXXXXXXX
+
+Itertion # 4
+current coord is: (6 , 6)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X...X..X
+X.XXXOXXXX
+XXX.OOOX.X
+X.XX.XXX.X
+X....X...X
+XXXXXXXXXX
+
+Itertion # 5
+current coord is: (4 , 5)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X..OX..X
+X.XXXOXXXX
+XXX.OOOX.X
+X.XX.XXX.X
+X....X...X
+XXXXXXXXXX
+
+Itertion # 6
+current coord is: (6 , 3)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X..OX..X
+X.XXXOXXXX
+XXXOOOOX.X
+X.XX.XXX.X
+X....X...X
+XXXXXXXXXX
+
+Itertion # 7
+current coord is: (7 , 4)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...X.X..X
+X.X..OX..X
+X.XXXOXXXX
+XXXOOOOX.X
+X.XXOXXX.X
+X....X...X
+XXXXXXXXXX
+
+Itertion # 8
+current coord is: (3 , 5)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...XOX..X
+X.X..OX..X
+X.XXXOXXXX
+XXXOOOOX.X
+X.XXOXXX.X
+X....X...X
+XXXXXXXXXX
+
+Itertion # 9
+current coord is: (4 , 4)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...XOX..X
+X.X.OOX..X
+X.XXXOXXXX
+XXXOOOOX.X
+X.XXOXXX.X
+X....X...X
+XXXXXXXXXX
+
+Itertion # 10
+current coord is: (8 , 4)
+XXXXXXXXXX
+X........X
+XXXXX.X.XX
+X...XOX..X
+X.X.OOX..X
+X.XXXOXXXX
+XXXOOOOX.X
+X.XXOXXX.X
+X...OX...X
+XXXXXXXXXX
+
+Itertion # 11
+current coord is: (2 , 5)
+XXXXXXXXXX
+X........X
+XXXXXOX.XX
+X...XOX..X
+X.X.OOX..X
+X.XXXOXXXX
+XXXOOOOX.X
+X.XXOXXX.X
+X...OX...X
+XXXXXXXXXX
+
+Itertion # 12
+current coord is: (4 , 3)
+XXXXXXXXXX
+X........X
+XXXXXOX.XX
+X...XOX..X
+X.XOOOX..X
+X.XXXOXXXX
+XXXOOOOX.X
+X.XXOXXX.X
+X...OX...X
+XXXXXXXXXX
+
+Itertion # 13
+current coord is: (8 , 3)
+XXXXXXXXXX
+X........X
+XXXXXOX.XX
+X...XOX..X
+X.XOOOX..X
+X.XXXOXXXX
+XXXOOOOX.X
+X.XXOXXX.X
+X..OOX...X
+XXXXXXXXXX
